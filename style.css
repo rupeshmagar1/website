@@ -189,9 +189,6 @@ padding: 10px;
 .display{
 display: flex;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon{
-	display: none;
-}
 }
 /*************End Section CSS****************/
 /*************Second Section CSS****************/
