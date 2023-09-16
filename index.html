@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website</title>
+     <link rel="shortcut icon" type="image/jpg" href="pic_6.JPG">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!----------NavBar Section------------->
+<div class="loader_bg">
+  <div class="container_1">
+  <div class="ring"></div>
+  <div class="ring"></div>
+  <div class="ring"></div>
+  <span class="loading">welcome to my website</span>
+</div>
+</div>
+<nav class="navbar navbar-expand-lg bg-white fixed-top">
+  <div class="container-fluid">
+     
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link active text-white" aria-current="page" href="#"><i class="fas fa-home"></i></a>
+        </li>
+               <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#about">Portfolia</a></li>
+            <li><a class="dropdown-item" href="#image-card">Research</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Service
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#img-hover-card">Online</a></li>
+            <li><a class="dropdown-item" href="#footer">Free Services</a></li>
+          </ul>
+        </li>
+               <li class="nav-item dropdown">
+          <a class="nav-link rm-dt" href="contact.html" role="button" data-bs-toggle="" >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.jpg" id="logo">
+    </a>
+  </div>
+</nav>
+<!---------- End NavBar Section------------->
+<!----------First Section------------->
+<div id="carouselExampleFade" class="carousel slide carousel-fade device-width" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item  active">
+      <div class="overlay-img c-item" data-mdb-interval="800"> 
+        <img src="images/carousel_1.jpg" class="d-block w-100 c-img" alt="...">
+      </div>
+    </div>
+    <div class="carousel-item ">
+      <div class="overlay-img c-item" data-mdb-interval="1000" >
+      <img src="images/clean_sunset.jpg" class="d-block w-100 c-img" alt="...">
+  </div>
+    </div>
+    <div class="carousel-item ">
+      <div class="overlay-img c-item" data-mdb-interval="600" >
+      <img src="images/carousel_3.jpg" class="d-block w-100 c-img" alt="...">
+  </div>
+    </div>
+     <div class="carousel-item ">
+      <div class="overlay-img c-item" data-mdb-interval="700"> 
+      <img src="images/pic_3.jpg" class="d-block w-100 c-img" alt="...">
+  </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden ">Next</span>
+  </button>
+</div>
+<!----------End First Section------------->
+<!----------Second Section------------->
+<div class="line">
+     <div class="title"><img src="images/flower.jpg"></div>
+   </div>
+<section class="div-sec" id="about">
+    <div class="row "> 
+        <div class="col div-img">
+            <img src="images/picture_123.png">
+   </div>
+        <div class="col div-content"> 
+            <h2>About Me</h2>
+            <p>I am an IT student. I am studying diploma level. I will make my bright future and my best is website design. So I have been working hard since now and will continue to do so. At the same time, I will continue to focus on studies.
+            </p>
+        </div>
+    </div>
+</section>
+<!----------End Second Section------------->
+<!----------Third Section------------->
+
+<div class="img_prov">
+  <h4 class="mb">Image Provide</h4>
+</div><hr>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 res-d " id="image-card">
+  <div class="col ">
+    <div class="card inner"> 
+       <img src="images/sunset.jpg" alt="...">
+    </div> 
+    <div class="card-body mt-1">
+        <h6 class="card-title">Evening's Amazing Scene</h6>  
+      </div>
+  </div>
+  <div class="col">
+    <div class="card inner">   
+        <img src="images/moon.jpg" alt="...">
+    </div>  
+    <div class="card-body mt-1">
+        <h6 class="card-title">Clear Moon</h6>
+      </div>
+  </div>
+   <div class="col" >
+    <div class="card inner">   
+         <img src="images/place_1.jpg" alt="...">
+    </div>
+    <div class="card-body mt-1">
+        <h6 class="card-title">Far Scene</h6>
+      </div>
+  </div>
+  <div class="col">
+    <div class="card inner">
+              <img src="images/place_2.jpg" alt="moon views">
+    </div>
+     <div class="card-body mt-1">
+        <h6 class="card-title">Amazing View Scene</h6>
+      </div>
+  </div>
+    <div class="col">
+    <div class="card inner">
+              <img src="images/pic_4.jpg" alt="House Scene">
+    </div>
+     <div class="card-body mt-1">
+        <h6 class="card-title">Residential Building</h6>
+      </div>
+  </div>
+    <div class="col">
+    <div class="card inner">
+              <img src="images/my_picture .jpg" alt="my picture">
+    </div>
+     <div class="card-body mt-1">
+        <h6 class="card-title">My Picture</h6>
+      </div>
+  </div>
+</div>
+<!---------- End Third Section------------->
+<!----------Fourth Section------------->
+<div class="img_prov text-center">
+  <h3 style="font-family: Sitka Subheading Semibold; font-size: 30px; color:darkblue; text-transform: uppercase;" class="mb">Image Gallery</h3>
+</div><hr>
+<section class="img-sec" id="img-hover-card">
+<div class="container col">
+  <div class="row">
+    <div class="col-md-3  col-sm-6 mt-4 ml-4 card-align">
+      <div class="single-content">
+        <img src="images/bird.jpg" alt="">
+        <div class="text-content">
+          <h3>Details</h3>
+          <p>Amazing Bird</p>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-3  col-sm-6 mt-4 ml-4 card-align">
+      <div class="single-content">
+        <img src="images/flower_2.jpg" alt="">
+        <div class="text-content">
+           <h3>Details</h3>
+          <p>Amazing Flower</p>
+        </div>
+      </div>
+    </div>
+         <div class="col-md-3  col-sm-6 mt-4 ml-4 card-align">
+      <div class="single-content">
+        <img src="images/place.jpg" alt="">
+        <div class="text-content">
+           <h3>Details</h3>
+          <p>Amazing Place</p>
+        </div>
+      </div>
+    </div>
+         <div class="col-md-3 col-sm-6 mt-4 ml-4 card-align">
+      <div class="single-content">
+        <img src="images/flower_1.jpg" alt="">
+        <div class="text-content">
+           <h3>Details</h3>
+          <p>Beautiful Flower</p>
+        </div>
+      </div>
+    </div>
+         <div class="col-md-3  col-sm-6 mt-4 ml-4 card-align">
+      <div class="single-content">
+        <img src="images/sun.jpg" alt="">
+        <div class="text-content">
+           <h3>Details</h3>
+          <p>Clean Sun</p>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-3  col-sm-6 mt-4 ml-4 card-align">
+      <div class="single-content">
+        <img src="images/river.jpg" alt="">
+        <div class="text-content">
+          <h3>Details</h3>
+          <p>River Place</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!----------End Fourth Section------------->
+<!----------Five Section------------->
+<section>
+  <div class="counter-wrapper">
+  <div class="counter">
+    <i class="fa-solid fa-users count-font"></i><br>
+    <span class="count" data-target="500">0</span><span class="fun-fact">+</span> 
+    <p>Happy Users</p>
+  </div>
+  <div class="counter">
+    <i class="fa-regular fa-eye count-font"></i><br>
+    <span class="count" data-target="1000">0</span ><span class="fun-fact">+</span> 
+    <p>Views</p>
+  </div>
+  <div class="counter">
+    <i class="fa-solid fa-share-from-square count-font"></i><br>
+    <span class="count" data-target="100">0</span ><span class="fun-fact">+</span> 
+    <p>Share Post</p>
+  </div>
+</div>
+</section>
+<!---------- End Five Section------------->
+<!----------Footer Section------------->
+<footer class="bg-dark text-white pt-5 pb-4" id="footer">
+  <div class="container text-md-left m-5">
+    <div class="row text-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Image View</h5>
+         <div class="card_1 inner_1">
+            <img src="images/pic_6.JPG" class="footer_img ">
+    </div>
+      </div>
+      <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful link</h5>
+         <p>
+          <a href="#" class="text-white mb_1" style="text-decoration: none;">Home</a>
+        </p>
+          <p>
+          <a href="#" class="text-white mb_1" style="text-decoration: none;">About</a>
+        </p>
+          <p>
+          <a href="#" class="text-white mb_1" style="text-decoration: none;">Service</a>
+        </p>
+          <p>
+          <a href="contact.html" class="text-white mb_1" style="text-decoration: none;">Contact</a>
+        </p>
+      </div>
+  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+    <p>
+      <i class="fas fa-map mr-3 pointing"></i>&nbsp;&nbsp;&nbsp; <a href="https://goo.gl/maps/y5AMcz2qofVa4vH49" class="text-decoration-none hover">Sindhupalchok, Bahrabise-1</a>
+    </p>
+      <p>
+      <i class="fas fa-envelope mr-3 pointing"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:" class="text-decoration-none hover">rupeshmagar1365@gmail.com</a>
+    </p>
+      <p>
+      <i class="fas fa-phone mr-3 pointing"></i>&nbsp;&nbsp;&nbsp;<a href="tel:9860243277" class="text-decoration-none hover">+977 9860243277</a>
+    </p>
+      <p>
+      <i class="fas fa-light fa-globe pointing"></i>&nbsp;&nbsp;&nbsp;<a href="https://rtm.com.np/" class="text-decoration-none hover">rtm.com.np</a>
+    </p>
+  </div>
+            <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+          <a href="https://www.facebook.com/rupesh.thapamagar.501" class="btn-floating btn-sm text-white" title="FaceBook" style="font-size: 23px;"><i class="fab fa-facebook social"></i></a>
+        </li>
+         <li class="list-inline-item">
+          <a href="http://twitter.com/" class="btn-floating btn-sm text-white" title="twitter" style="font-size: 23px;"><i class="fab fa-twitter social"></i></a>
+        </li>
+         <li class="list-inline-item">
+          <a href="#" class="btn-floating btn-sm text-white" title="google plus" style="font-size: 23px;"><i class="fab fa-google-plus social"></i></a>
+        </li>
+         <li class="list-inline-item">
+          <a href="sms:9860243277?body=Thank You" class="btn-floating btn-sm text-white" title="messsage" style="font-size: 23px;"><i class="fa fa-solid fa-message social"></i></a>
+        </li>
+         <li class="list-inline-item">
+         <a href="https://www.facebook.com/sharer.php?u=http://personalsite.infinityfreeapp.com/?i=1" class="btn-floating btn-sm text-white" title="Share" style="font-size: 23px; cursor: pointer;"><i class="fa-solid fa-share-nodes social"></i></a>
+  </li>
+      </ul>
+        </div>
+      </div>
+    </div>
+    <hr class="mb-4">
+    <div class="row align-items-center ">
+      <div class="col display">
+        <p class="float-start">Copyright 2023 All right reserved.</p>
+        <p class="float-end" style="margin-right: 20px;">Designed By:
+          <a href="#" style="text-decoration:none;">
+            <strong class="text-warning">Rupesh Thapa Magar</strong>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!----------End Footer Section------------->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="min.js"></script>
+<script type="text/javascript" src="min_1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+  setTimeout(function()
+  {
+
+   $('.loader_bg').fadeToggle();
+  },1500);
+</script>
+</body>
+</html>
+
