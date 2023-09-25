@@ -506,6 +506,7 @@ footer{
 }
 .social{
 	background-color: black;
+	  background: transparent;
 }
 .social:hover{
 	color:greenyellow;
